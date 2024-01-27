@@ -14,12 +14,15 @@ Welcome to the Text Summarizer App! This application allows you to generate summ
 3. Install the required dependencies using `pip install -r requirements.txt`.
 4. Run the FastAPI backend using `uvicorn main:app --reload`.
 5. Run the Vite/React frontend using `npm install npm run dev`.
+6. Navigate to `http://localhost:5173/` to access the app. 
 
 ## Technologies Used
 
 - FastAPI for the backend server.
 - React for the frontend user interface.
 - OpenAI GPT-3.5 Turbo for text summarization.
+
+![Text Summarizer App](https://i.imgur.com/WyUFFpB.png)
 
 
 **Note:** Ensure you have the necessary permissions and adhere to OpenAI's terms of service when using the GPT-3.5 Turbo model.
